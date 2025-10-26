@@ -1,0 +1,27 @@
+{
+  "name": "tmdb-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:create": "node scripts/createDatabase.js",
+    "seed": "node seed.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.0.3",
+    "vitest": "^3.2.4"
+  }
+}
