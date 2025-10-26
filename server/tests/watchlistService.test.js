@@ -175,5 +175,3 @@ describe('Watchlist Service', () => {
 });
 
 });
-
-// watchlistController.test.js
