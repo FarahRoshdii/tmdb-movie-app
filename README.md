@@ -14,20 +14,21 @@ Trade-offs
 - Not using a full ORM (like Sequelize, ActiveRecord) keeps it simple, but requires writing raw SQL queries.
 
 
+
 How to run
 1. Copy server .env.example and set TMDB_API_KEY and JWT_SECRET:
-2. run npm run setup 
+2. run npm run setup
+3. run npm run dev which concurrently runs client and server.
+
+
+What npm run setup does
+1. Installs dependencies for server and client.
+2. Creates the MySQL database if it doesn’t exist.
+3. Seeds the database with movies and their genres.
                    
-What it does 
-1.Installs dependencies for server and client.
 
-2.Creates the MySQL database if it doesn’t exist.
-
-3. Seeds the database with movies and genres.
-
-3. run npm run dev which concurrently runs client and server
-
-4. to run tests run npm test in server directory
+Unit Tests
+- To run backend unit tests , run npm test in server directory.
 
 
 API examples
