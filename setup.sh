@@ -30,5 +30,4 @@ npm install
 
 echo "Setup complete!"
 echo "To start the app:"
-echo "1. Run 'npm run dev' from project root (this will setup DB & start server)"
-echo "2. Client runs automatically if you configured server to proxy, otherwise run 'npm run dev' in client"
+echo "Run 'npm run dev' from project root (this will setup DB & start server)"
