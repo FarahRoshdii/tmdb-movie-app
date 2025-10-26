@@ -45,3 +45,4 @@ API examples
 
 Future improvements
 - More unit & integration tests.
+- Add Automated genres seed to the seeder.

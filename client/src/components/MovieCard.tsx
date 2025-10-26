@@ -57,7 +57,7 @@ export default function MovieCard({ movie }: MovieCardProps) {
           </span>
           {movie.vote_average && movie.vote_average > 0 && (
             <span className="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded">
-              ⭐ {movie.vote_average.toFixed(1)}
+              {movie.vote_average.toFixed(1)}
             </span>
           )}
         </div>
